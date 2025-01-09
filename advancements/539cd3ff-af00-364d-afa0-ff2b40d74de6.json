@@ -7,26 +7,33 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:flower_forest": "2024-10-14 13:55:31 +0800",
-      "minecraft:beach": "2024-10-10 14:46:18 +0800",
-      "minecraft:dark_forest": "2024-10-10 18:23:29 +0800",
       "minecraft:forest": "2024-10-10 22:46:12 +0800",
       "minecraft:taiga": "2024-10-10 22:45:31 +0800",
       "minecraft:deep_ocean": "2024-10-10 14:56:59 +0800",
+      "minecraft:lush_caves": "2024-12-06 12:18:47 +0800",
+      "minecraft:desert": "2024-12-07 13:26:55 +0800",
+      "minecraft:ocean": "2024-10-10 14:49:58 +0800",
+      "minecraft:jungle": "2024-12-22 15:56:56 +0800",
+      "minecraft:sunflower_plains": "2024-12-07 13:42:51 +0800",
+      "minecraft:cherry_grove": "2024-12-22 15:55:41 +0800",
+      "minecraft:birch_forest": "2024-11-13 13:34:45 +0800",
+      "minecraft:old_growth_spruce_taiga": "2024-12-06 12:19:47 +0800",
+      "minecraft:bamboo_jungle": "2024-12-22 15:57:10 +0800",
+      "minecraft:warm_ocean": "2024-10-10 14:59:43 +0800",
+      "minecraft:deep_lukewarm_ocean": "2024-10-10 14:58:23 +0800",
+      "minecraft:flower_forest": "2024-10-14 13:55:31 +0800",
+      "minecraft:beach": "2024-10-10 14:46:18 +0800",
+      "minecraft:dark_forest": "2024-10-10 18:23:29 +0800",
       "minecraft:river": "2024-10-10 15:02:15 +0800",
       "minecraft:lukewarm_ocean": "2024-10-10 14:57:45 +0800",
       "minecraft:dripstone_caves": "2024-10-11 18:48:07 +0800",
       "minecraft:old_growth_birch_forest": "2024-10-10 14:46:36 +0800",
       "minecraft:deep_dark": "2024-11-13 13:42:24 +0800",
-      "minecraft:ocean": "2024-10-10 14:49:58 +0800",
       "minecraft:grove": "2024-10-23 21:39:34 +0800",
       "minecraft:meadow": "2024-10-23 21:57:05 +0800",
-      "minecraft:birch_forest": "2024-11-13 13:34:45 +0800",
       "minecraft:savanna": "2024-10-10 15:01:40 +0800",
       "minecraft:plains": "2024-10-10 15:01:38 +0800",
-      "minecraft:jagged_peaks": "2024-11-13 13:33:59 +0800",
-      "minecraft:warm_ocean": "2024-10-10 14:59:43 +0800",
-      "minecraft:deep_lukewarm_ocean": "2024-10-10 14:58:23 +0800"
+      "minecraft:jagged_peaks": "2024-11-13 13:33:59 +0800"
     },
     "done": false
   },
@@ -503,11 +510,15 @@
       "cooked_porkchop": "2024-10-14 14:23:23 +0800",
       "mutton": "2024-10-10 17:20:05 +0800",
       "chicken": "2024-10-10 17:21:37 +0800",
-      "potato": "2024-10-11 17:19:49 +0800",
-      "cod": "2024-10-14 22:41:37 +0800",
+      "golden_apple": "2024-12-09 18:33:31 +0800",
+      "rotten_flesh": "2024-12-08 14:29:53 +0800",
+      "cooked_beef": "2024-12-08 14:32:16 +0800",
       "baked_potato": "2024-10-10 17:55:04 +0800",
       "porkchop": "2024-10-10 17:26:26 +0800",
       "golden_carrot": "2024-11-21 13:12:12 +0800",
+      "potato": "2024-10-11 17:19:49 +0800",
+      "cod": "2024-10-14 22:41:37 +0800",
+      "cooked_salmon": "2024-12-02 18:49:46 +0800",
       "carrot": "2024-10-15 18:33:22 +0800"
     },
     "done": false
@@ -1880,6 +1891,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cow": "2024-12-07 12:36:13 +0800",
       "minecraft:pig": "2024-10-15 16:57:59 +0800"
     },
     "done": false
@@ -3351,6 +3363,102 @@
   "minecraft:nether/create_full_beacon": {
     "criteria": {
       "beacon": "2024-11-27 13:44:37 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2024-11-29 19:43:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2024-11-29 19:43:40 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-12-03 13:05:01 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2024-12-04 19:12:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_slab": {
+    "criteria": {
+      "has_smooth_quartz": "2024-12-04 19:12:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs": {
+    "criteria": {
+      "has_smooth_quartz": "2024-12-04 19:12:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz_stairs_from_smooth_quartz_stonecutting": {
+    "criteria": {
+      "has_smooth_quartz": "2024-12-04 19:12:47 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2024-12-06 12:19:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-12-06 12:19:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-12-06 12:19:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2024-12-06 16:41:17 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2024-12-06 17:33:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2024-12-06 17:33:32 +0800"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2024-12-07 23:46:50 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2024-12-08 14:11:18 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2025-01-01 21:59:18 +0800"
     },
     "done": true
   },

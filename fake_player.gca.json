@@ -1,1 +1,10 @@
-{}
+{
+  "mob_farm": {
+    "actions": {
+      "sneaking": false,
+      "sprinting": false,
+      "forward": 0.0,
+      "strafing": 0.0
+    }
+  }
+}
